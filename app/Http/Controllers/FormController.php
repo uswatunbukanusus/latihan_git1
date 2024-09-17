@@ -9,6 +9,6 @@ class FormController extends Controller
     public function processCreate(request $request)
     {
         $name = $request->input('name');
-        return "Data telah di submit:". $name;;
+        return "Data telah di submit:". $name;
     }
 };
